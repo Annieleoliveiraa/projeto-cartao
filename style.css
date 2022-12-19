@@ -85,15 +85,15 @@ span {
 
 @media (max-width: 600px) {
   .container {
-    
     display: flex;
     flex-direction: column;
-    width: 390px;
+    justify-content: space-between;
+    max-width: 360px;
     height: 500px;
   }
   .card-image {
     border-radius: 10px 10px 0 0;
-    width: 390px;
+    width: 360px;
     height: 200px;
   }
 
@@ -104,7 +104,7 @@ span {
 
   .card-title {
     max-width: 350px;
-    text-align: center;
+    margin-top: 0;
   }
 
   .container-woman {
@@ -113,6 +113,11 @@ span {
 
   .text-woman {
     white-space: pre;
+  }
+
+  .icon-share {
+    position: relative;
+    right: 7.2rem;
   }
 }
  
